@@ -1,0 +1,12 @@
+version: '3.2'
+
+services:
+  ddns:
+    image: dns:latest
+    restart: always
+    ports:
+      - "53:53/udp"
+      - "53:53/tcp"
+    dns: 8.8.8.8
+    volumes:
+      - "./config:/app/config"

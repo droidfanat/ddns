@@ -1,0 +1,8 @@
+composer.lock
+.project
+/vendor/
+.README.md.html
+/.idea
+/tests/clover.xml
+/nbproject
+phpunit.xml

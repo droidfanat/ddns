@@ -1,0 +1,38 @@
+{
+    "name": "yswery/dns",
+    "description": "A DNS server implementation in pure PHP.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yif Swery",
+            "email": "yiftachswr@gmail.com"
+        },
+        {
+            "name": "Gary Saunders",
+            "email": "gary@codenamegary.com"
+        },
+        {
+            "name": "Ivan Stanojevic",
+            "email": "ivanstan@gmail.com"
+        },
+        {
+            "name": "Samuel Williams",
+            "email": "sam@badcow.co"
+        }
+    ],
+    "require": {
+        "react/socket": "^0.8.10",
+        "react/datagram": "^1.4",
+        "ext-json": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yswery\\DNS\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "yswery\\DNS\\Tests\\": "tests/"
+        }
+    }
+}
