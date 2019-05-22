@@ -2,7 +2,7 @@ version: '3.2'
 
 services:
   ddns:
-    image: dns:latest
+    image: xdoom88/ddns:latest
     restart: always
     ports:
       - "53:53/udp"
