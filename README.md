@@ -1,9 +1,7 @@
 Docker DNS Server
 ==============
-
 This is an Authoritative DNS Server written in pure PHP.
-It will listen to DNS request on the default port (Default: port 53) and give answers about any domain that it has DNS records for.
-This class can be used to give DNS responses dynamically based on your pre-existing PHP code.
+It will listen to DNS request on the default port (Default: port 53) and give answers about any domain that it has DNS records for and perform the role of proxy.
 
 Supported Record Types
 ====================
